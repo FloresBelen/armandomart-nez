@@ -1,0 +1,72 @@
+nav{
+    
+ background: #1FA2FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+ 
+    
+}
+
+
+
+
+*{
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+h1{
+    
+   font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    
+    
+}
+
+.linea{
+   background: #550b51;
+    height: 5px;
+    width: 100%;
+    display: block;
+    
+    
+    
+    
+.galeria{
+        
+        
+        font-family: 'open sans';
+    
+    }
+    
+.galeria h1{
+        
+        text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+        
+    }
+    .contenedor_imagenes{
+        
+        display: flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-around;
+        
+        
+        
+        
+    }
+
+
+
+
+
