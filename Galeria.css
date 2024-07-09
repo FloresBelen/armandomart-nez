@@ -1,0 +1,279 @@
+nav{
+    
+ background: #1FA2FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+ 
+    
+}
+
+
+
+
+*{
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+h1{
+    font-family: serif;
+   font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    
+    
+}
+
+
+    
+    
+    
+.galeria{
+        
+        
+        font-family: 'open sans';
+    
+    }
+    
+.galeria h1{
+        
+        text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+        
+    }
+    .contenedor_imagenes{
+        
+        display: flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        
+        
+        
+        
+    }
+    .contenedor_imagenes .imagen{
+        
+        width: 32%;
+        position: relative;
+        height: 250px;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0, .75);
+    }
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+    
+    
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100;
+    overflow: hidden;
+    transition: 5s ease;
+   
+     
+}
+.overlay h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%)
+    
+    
+    
+}
+.imagen:hover .overlay{
+    height: 100%;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor_imagenes .imagen{
+        
+        width: 48%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+.linea{
+    border-top: 5px solid #0077c0;
+    margin-bottom: 40px;
+     background: #550b51;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+footer{
+    background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: ;
+    padding: 20px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.contenedor-footer{
+    
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fff;
+}
+
+
+.contenedor-footer h4{
+    
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+}
+.contenedor-foo p{
+    
+    color: #ccc;
+    
+}
+.titulo-final{
+    
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+    
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #4cc4ff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+/*Header*/
+header{
+    width: 100%;
+    height: 600px;
+   background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, rgba(32, 189, 255, 0), #5433FF),url(danza6.jfif); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    
+     }
+header.textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+    
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+    
+    
+    
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+    
+
+
+
+
