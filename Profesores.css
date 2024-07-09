@@ -1,0 +1,70 @@
+
+
+body{background-image: url(fondo-textura-cemento-amarillo-claro-textura-alta-calidad-resolucion-extremadamente-alta_463999-561.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+
+.mas{
+    margin-top: auto;
+    margin: 50px;
+    width: 400px;
+    height: 100px;
+    
+    background-color: white;
+    
+      box-shadow: 0 0 20px 15px rgba(0,0,0,.2);
+    
+}
+
+
+h1{ font-family: serif;
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+.lana{
+    
+   width: 400px;
+    height: 150px;
+      box-shadow: 0 0 20px 15px rgba(0,0,0,.2);
+   
+  background-color: aquamarine;
+    margin-top: auto;
+    margin: 0px;
+   
+    
+    
+}
+.list-group{
+    
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+   
+    
+    
+    
+}
+.boton1:hover{
+   background-color: red;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+    
+    
+    
+}

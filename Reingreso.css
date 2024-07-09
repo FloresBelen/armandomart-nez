@@ -1,0 +1,48 @@
+.contenedor{
+    background-color: ;
+    width: 700px;
+    height: 500px;
+    
+    
+}
+.contenedor{
+    
+     margin-top: 10px;
+      box-shadow: 0 0 20px 15px rgba(0,0,0,.2);
+    
+}
+body{
+    
+    
+     background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+h7{
+    
+    
+    
+    font-family: serif;
+    
+}
+h1{
+    font-family: serif;
+}
+h2{
+    font-family: serif;
+}
+
+
+nav{
+    
+ background: #1FA2FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+ 
+    
+}
